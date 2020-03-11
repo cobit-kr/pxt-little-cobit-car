@@ -1,4 +1,5 @@
 enum Motor {
+
     //% block="left"
     Left = 0,
     //% block="right"
