@@ -111,7 +111,7 @@ namespace little_cobit_car {
         if (pwr > 1024) {
             pwr = 1024
         }
-        pins.digitalWritePin(DigitalPin.P12, 0)
+        pins.digitalWritePin(DigitalPin.P2, 0)
         pins.analogWritePin(AnalogPin.P13, pwr)
         pins.digitalWritePin(DigitalPin.P14, 0)
         pins.analogWritePin(AnalogPin.P15, 0)
