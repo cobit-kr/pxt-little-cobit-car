@@ -45,10 +45,10 @@ namespace little_cobit_car {
         if (pwr > 1024) {
             pwr = 1024
         }
-        pins.digitalWritePin(DigitalPin.P2, 0)
-        pins.analogWritePin(AnalogPin.P13, pwr)
-        pins.digitalWritePin(DigitalPin.P14, 0)
-        pins.analogWritePin(AnalogPin.P15, pwr)
+        pins.digitalWritePin(DigitalPin.P13, 0)
+        pins.analogWritePin(AnalogPin.P2, pwr)
+        pins.digitalWritePin(DigitalPin.P15, 0)
+        pins.analogWritePin(AnalogPin.P14, pwr)
     }
 
     /**
@@ -66,10 +66,10 @@ namespace little_cobit_car {
         if (pwr > 1024) {
             pwr = 1024
         }
-        pins.digitalWritePin(DigitalPin.P2, 1)
-        pins.analogWritePin(AnalogPin.P13, (1024 - pwr))
-        pins.digitalWritePin(DigitalPin.P14, 1)
-        pins.analogWritePin(AnalogPin.P15, (1024 - pwr))
+        pins.digitalWritePin(DigitalPin.P13, 1)
+        pins.analogWritePin(AnalogPin.P2, (1024 - pwr))
+        pins.digitalWritePin(DigitalPin.P15, 1)
+        pins.analogWritePin(AnalogPin.P14, (1024 - pwr))
     }
 
     /**
